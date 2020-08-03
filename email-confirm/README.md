@@ -36,10 +36,10 @@ php artisan migrate
 
 Генерирование проверочного кода и отправка проверяемому контакту
 ```
-/codeSend?email=<email>
+/sendCode?email=<email>
 ```
 
 Проверка и активация проверяемого контакта по проверочному коду
 ```
-/codeSend?email=<email>&code=<code>
+/checkCode?email=<email>&code=<code>
 ```
